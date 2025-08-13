@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Malay-portfolio/static/css/main.0ee7b7be.css",
-    "main.js": "/Malay-portfolio/static/js/main.222ffbaf.js",
+    "main.js": "/Malay-portfolio/static/js/main.fae1d685.js",
     "static/js/3.0b699837.chunk.js": "/Malay-portfolio/static/js/3.0b699837.chunk.js",
     "static/media/Loan Prediction Model video.mp4": "/Malay-portfolio/static/media/Loan Prediction Model video.7fd511b238aead63b31c.mp4",
     "static/media/profile.png": "/Malay-portfolio/static/media/profile.65b3644756e6cc9eaa59.png",
@@ -12,11 +12,11 @@
     "static/media/MALAY_Resume.pdf": "/Malay-portfolio/static/media/MALAY_Resume.788665e1083d76b51e7b.pdf",
     "index.html": "/Malay-portfolio/index.html",
     "main.0ee7b7be.css.map": "/Malay-portfolio/static/css/main.0ee7b7be.css.map",
-    "main.222ffbaf.js.map": "/Malay-portfolio/static/js/main.222ffbaf.js.map",
+    "main.fae1d685.js.map": "/Malay-portfolio/static/js/main.fae1d685.js.map",
     "3.0b699837.chunk.js.map": "/Malay-portfolio/static/js/3.0b699837.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee7b7be.css",
-    "static/js/main.222ffbaf.js"
+    "static/js/main.fae1d685.js"
   ]
 }
