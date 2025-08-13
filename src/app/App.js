@@ -17,7 +17,7 @@ export const App = () => {
     return (
       <ThemeProvider>
         <CssBaseline />
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <HelmetMeta />
           <Switch>
               <Route path="/" exact component={Home} />

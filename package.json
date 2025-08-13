@@ -1,10 +1,10 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "",
-  "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
-  "repository": "https://github.com/taniyow/react-portfolio",
-  "author": "Mark Tan <markcmtan@gmail.com>",
+  "homepage": "https://Malay-Thumbar.github.io/Malay-portfolio",
+  "description": "A clean and customizable ReactJS portfolio template for fellow developers.",
+  "repository": "https://github.com/Malay-Thumbar/Malay-portfolio",
+  "author": "Malay Thumbar",
   "license": "MIT",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
@@ -34,7 +34,7 @@
     "build": "react-scripts build && react-snapshot",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp build/index.html build/404.html",
+    "predeploy": "npm run build && cp-cli build/index.html build/404.html",
     "deploy": "gh-pages -d build"
   },
   "reactSnapshot": {
@@ -59,6 +59,8 @@
     ]
   },
   "devDependencies": {
-    "emailjs": "^4.0.0"
+    "cp-cli": "^2.0.0",
+    "emailjs": "^4.0.0",
+    "gh-pages": "^6.3.0"
   }
 }
