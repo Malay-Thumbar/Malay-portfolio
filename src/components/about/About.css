@@ -1,0 +1,102 @@
+/* About.css - updated */
+
+/* container */
+.about {
+  width: calc(100% - 4rem);
+  max-width: 1100px;
+  margin: 3rem auto; /* centers horizontally with decent top spacing */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem; /* space between image and content */
+}
+
+/* heading (left column usage, optional) */
+.heading {
+  width: 30%;
+  font-size: 1.15rem;
+}
+
+/* image wrapper - fixed visual footprint, won't expand beyond this */
+._img {
+  flex: 0 0 260px; /* don't grow, base width 260px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* actual image */
+._img .profile-img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  display: block;
+  object-fit: cover;             /* crops nicely if aspect differs */
+  border-radius: 16px;           /* rounded corners */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* If you prefer a circular avatar, uncomment this line */
+/* ._img .profile-img { border-radius: 9999px; } */
+
+._content_wrapper {
+  flex: 1 1 auto; /* take remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* buttons / links */
+.contact-btn {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #464646;
+}
+.contact-btn:hover {
+  background-color: #ec704c;
+  color: #fff;
+}
+
+/* adjust text width inside content so paragraphs wrap nicely */
+.description, .aboutme {
+  max-width: 70ch;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .about {
+    gap: 1.5rem;
+    margin: 2rem auto;
+  }
+  ._img {
+    flex: 0 0 220px;
+  }
+  ._img .profile-img {
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    gap: 1.25rem;
+  }
+  .heading {
+    width: 100%;
+    text-align: center;
+  }
+  ._img {
+    flex: 0 0 auto;
+    width: 180px;
+  }
+  ._img .profile-img {
+    max-width: 180px;
+  }
+  ._content_wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}

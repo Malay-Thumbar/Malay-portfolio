@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Malay Thumbar",
+    "label": "Data Analyst | Mechanical Engineer",
+    "email": "malaythumbar02@gmail.com",
+    "phone": "(+91) XXXXX XXXXX",
+    "picture": "profile.png",
+    "x_title": "Hello, I'm",
+    "job1": "Data",
+    "job2": "Analyst",
+    "description": "I am a passionate data analyst with hands-on experience in transforming raw data into actionable insights using SQL, Python, Excel, and Power BI.",
+    "summary": "Based in Mumbai, India.",
+    "keywords": "data,analyst,portfolio,malay,thumbar,mumbai,react,github,linkedin,powerbi,python,excel,sql,mysql",
+    "url": "https://github.com/Malay-Thumbar",
+    "location": {
+      "address": "Mumbai",
+      "postalCode": "400001",
+      "city": "Mumbai",
+      "country": "India",
+      "countryCode": "IN",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Google",
+        "username": "malaythumbar02@gmail.com",
+        "url": "mailto:malaythumbar02@gmail.com",
+        "x_icon": "fab fa-google"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "malay-thumbar",
+        "url": "https://www.linkedin.com/in/malay-t-98b218219/",
+        "x_icon": "fab fa-linkedin-in"
+      },
+      {
+        "network": "GitHub",
+        "username": "Malay-Thumbar",
+        "url": "https://github.com/Malay-Thumbar",
+        "x_icon": "fab fa-github"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Ambuja Cement (Adani Group)",
+      "position": "Data Analysis Intern",
+      "website": "https://www.adani.com/",
+      "startDate": "2024-07-01",
+      "endDate": "2024-09-30",
+      "summary": "Analyzed micromarkets to find whitespace opportunities and identified growth and regrowth areas.",
+      "highlights": ["Market segmentation", "Opportunity mapping", "Growth strategy analysis"]
+    },
+    {
+      "company": "CodeClause",
+      "position": "Data Analyst Intern",
+      "website": "https://codeclause.com/",
+      "startDate": "2024-05-01",
+      "endDate": "2024-06-30",
+      "summary": "Worked on data-driven projects such as loan prediction and dashboard creation.",
+      "highlights": ["Loan prediction model", "Excel dashboard design", "Financial data analysis"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "XYZ University",
+      "area": "Mechanical Engineering",
+      "studyType": "B.Tech",
+      "startDate": "2020-08-01",
+      "endDate": "2024-06-30",
+      "gpa": "8.0/10",
+      "courses": ["Data Analytics", "Statistics", "Machine Learning", "SQL"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Sales Insight Project",
+      "description": "Analyzed 150,000 rows of sales data for a computer hardware business using MySQL and Power BI, creating a real-time sales dashboard.",
+      "url": "https://github.com/Malay-Thumbar/Sales-Insight-Atliq-hardware-Project-",
+      "media": ["/images/Sales insight 1.jpg", "/images/Sales insight 2.jpg"],
+      "keywords": ["MySQL", "Power BI"]
+    },
+    {
+      "name": "Loan Prediction Model",
+      "description": "Developed a machine learning model on 250,000 records to predict loan outcomes, optimizing approval processes and reducing risk.",
+      "url": "https://github.com/Malay-Thumbar/Codeclause-Internship/tree/main",
+      "media": ["/videos/Loan Prediction Model video.mp4"],
+      "keywords": ["Python", "Machine Learning"]
+    },
+    {
+      "name": "Financial Dashboard",
+      "description": "Built a financial dashboard to analyze and track KPIs such as revenue, gross margin, and department-wise expenses over time.",
+      "url": "https://github.com/Malay-Thumbar/Codeclause-Internship/tree/main",
+      "media": ["/images/Financial Dashboard.jpg"],
+      "keywords": ["Excel", "Power BI"]
+    },
+    {
+      "name": "Call Center Dashboard",
+      "description": "Analyzed 32,942 call records using Excel, creating interactive dashboards to visualize call trends and improve response times.",
+      "url": "https://github.com/Malay-Thumbar/Call-center-Dashboard",
+      "media": ["/images/Excel Dashboard.jpg"],
+      "keywords": ["Excel"]
+    }
+  ],
+  "skills": [
+    { "name": "Python", "level": "Advanced", "icon": "/images/python-logo-only.svg" },
+    { "name": "Power BI", "level": "Advanced", "icon": "/images/Power Bi Transparent Logo Vector.svg" },
+    { "name": "Excel", "level": "Advanced", "icon": "/images/excel.png" },
+    { "name": "SQL", "level": "Intermediate", "icon": "/images/sql-server.png" },
+    { "name": "MySQL", "level": "Intermediate", "icon": "/images/sql-server.png" }
+  ],
+  "languages": [
+    { "language": "English", "fluency": "Fluent" },
+    { "language": "Hindi", "fluency": "Fluent" },
+    { "language": "Marathi", "fluency": "Native" }
+  ]
+}
